@@ -31,5 +31,29 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "phys": {
+    "dataSource": "db",
+    "public": true
+  },
+  "client": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Activity": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ActivityResponsibleResident": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Resident": {
+    "dataSource": "db",
+    "public": true
+  },
+  "appointment": {
+    "dataSource": "db",
+    "public": true
   }
 }

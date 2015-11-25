@@ -1,0 +1,27 @@
+{
+  "name": "phys",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "client": {
+      "type": "hasMany",
+      "model": "client",
+      "foreignKey": "physid",
+      "through": "appointment"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
